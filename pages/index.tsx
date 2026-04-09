@@ -56,6 +56,41 @@ const IconMail = () => (
     <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
   </svg>
 )
+const IconDocument = () => (
+  <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
+    <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9Z" />
+  </svg>
+)
+const IconCurrency = () => (
+  <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
+    <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v12m-3-2.818.879.659c1.171.879 3.07.879 4.242 0 1.172-.879 1.172-2.303 0-3.182C13.536 12.219 12.768 12 12 12c-.725 0-1.45-.22-2.003-.659-1.106-.879-1.106-2.303 0-3.182s2.9-.879 4.006 0l.415.33M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+  </svg>
+)
+const IconChart = () => (
+  <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
+    <path strokeLinecap="round" strokeLinejoin="round" d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 0 1 3 19.875v-6.75ZM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 0 1-1.125-1.125V8.625ZM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 0 1-1.125-1.125V4.125Z" />
+  </svg>
+)
+const IconSparkles = () => (
+  <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
+    <path strokeLinecap="round" strokeLinejoin="round" d="M9.813 15.904 9 18.75l-.813-2.846a4.5 4.5 0 0 0-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 0 0 3.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 0 0 3.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 0 0-3.09 3.09ZM18.259 8.715 18 9.75l-.259-1.035a3.375 3.375 0 0 0-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 0 0 2.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 0 0 2.455 2.456L21.75 6l-1.036.259a3.375 3.375 0 0 0-2.455 2.456ZM16.894 20.567 16.5 21.75l-.394-1.183a2.25 2.25 0 0 0-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 0 0 1.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 0 0 1.423 1.423l1.183.394-1.183.394a2.25 2.25 0 0 0-1.423 1.423Z" />
+  </svg>
+)
+const IconClock = () => (
+  <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
+    <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+  </svg>
+)
+const IconClipboard = () => (
+  <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
+    <path strokeLinecap="round" strokeLinejoin="round" d="M11.35 3.836c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 0 0 .75-.75 2.25 2.25 0 0 0-.1-.664m-5.8 0A2.251 2.251 0 0 1 13.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m8.9-4.414c.376.023.75.05 1.124.08 1.131.094 1.976 1.057 1.976 2.192V16.5A2.25 2.25 0 0 1 18 18.75h-2.25m-7.5-10.5H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V18.75m-7.5-10.5h6.375c.621 0 1.125.504 1.125 1.125v9.375m-8.25-3 1.5 1.5 3-3.75" />
+  </svg>
+)
+const IconUsers = () => (
+  <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
+    <path strokeLinecap="round" strokeLinejoin="round" d="M15 19.128a9.38 9.38 0 0 0 2.625.372 9.337 9.337 0 0 0 4.121-.952 4.125 4.125 0 0 0-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 0 1 8.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0 1 11.964-3.07M12 6.375a3.375 3.375 0 1 1-6.75 0 3.375 3.375 0 0 1 6.75 0Zm8.25 2.25a2.625 2.625 0 1 1-5.25 0 2.625 2.625 0 0 1 5.25 0Z" />
+  </svg>
+)
 
 export default function Home() {
   return (
@@ -93,6 +128,7 @@ export default function Home() {
             </span>
             <nav className="hidden md:flex items-center gap-6 text-sm text-slate-500">
               <a href="#service" className="hover:text-slate-900 transition-colors cursor-pointer">事業内容</a>
+              <a href="#automation" className="hover:text-slate-900 transition-colors cursor-pointer">業務自動化</a>
               <a href="#approach" className="hover:text-slate-900 transition-colors cursor-pointer">私たちの考え</a>
               <a href="#faq" className="hover:text-slate-900 transition-colors cursor-pointer">FAQ</a>
             </nav>
@@ -128,12 +164,11 @@ export default function Home() {
                 </a>
               </div>
             </div>
-            {/* 下の区切り線 */}
             <div className="border-b border-slate-100" />
           </section>
 
           {/* ════════════════════════════════════════════
-              PAIN POINTS - 宿の経営者の声
+              PAIN POINTS
           ════════════════════════════════════════════ */}
           <section className="py-20 md:py-28 px-4 bg-slate-50">
             <div className="max-w-5xl mx-auto">
@@ -149,8 +184,8 @@ export default function Home() {
                   'OTA頼みで利益が薄い',
                   '後継者がいない',
                   '設備投資の判断がつかない',
-                  'やりたいことはあるが手が回らない',
-                  '銀行に相談しても時間がかかる',
+                  '請求書やレポートを手作業で作っている',
+                  '料金設定が勘頼みで、取りこぼしている気がする',
                   'そもそも誰に相談すればいいかわからない',
                 ].map((text) => (
                   <div key={text} className="bg-white rounded-xl px-5 py-4 border border-slate-200 text-slate-700 text-sm leading-relaxed">
@@ -179,7 +214,7 @@ export default function Home() {
                 まず足元の資金を安定させ、次に業務と収益を改善し、その先の承継・再編まで伴走します。
               </p>
 
-              {/* Stage 1 */}
+              {/* Stage 1 - 資金繰り */}
               <div className="mb-6">
                 <div className="bg-slate-900 rounded-2xl p-8 md:p-10">
                   <div className="flex items-start gap-5">
@@ -192,7 +227,7 @@ export default function Home() {
                       <p className="text-slate-300 text-sm leading-relaxed mb-6 max-w-2xl">
                         宿泊業は売上があっても手元資金が不足しがちな業種です。
                         OTA入金の前払い、設備故障の緊急資金、繁閑差の平準化、修繕費の調達など、
-                        宿泊業特有の資金ニーズに特化したファクタリング・資金化サービスで支えます。
+                        宿泊業特有の資金ニーズに特化した資金化サービスで支えます。
                       </p>
                       <div className="flex flex-wrap gap-2">
                         {['OTA売上の前払い', '設備修繕の緊急資金', '繁閑差の平準化', '改装前のブリッジ資金', '天候キャンセル対応'].map((t) => (
@@ -205,11 +240,9 @@ export default function Home() {
               </div>
 
               {/* Arrow */}
-              <div className="flex justify-center my-2 text-slate-300">
-                <IconArrowDown />
-              </div>
+              <div className="flex justify-center my-2 text-slate-300"><IconArrowDown /></div>
 
-              {/* Stage 2 */}
+              {/* Stage 2 - 業務改善 */}
               <div className="mb-6 mt-2">
                 <div className="bg-slate-50 border border-slate-200 rounded-2xl p-8 md:p-10">
                   <div className="flex items-start gap-5">
@@ -220,12 +253,12 @@ export default function Home() {
                       <p className="text-slate-400 text-xs font-medium mb-1">STAGE 02 ── 次に、利益体質をつくる</p>
                       <h3 className="text-slate-900 text-xl md:text-2xl font-bold mb-4">業務改善・収益改善</h3>
                       <p className="text-slate-600 text-sm leading-relaxed mb-6 max-w-2xl">
-                        資金が安定したら、次は業務と収益の改善です。
-                        予約管理の効率化、清掃オペレーションの省人化、価格設定の最適化、
-                        OTA依存からの脱却、販促の仕組みづくりなど、宿泊業の現場を知っているからこそできる改善を進めます。
+                        資金が安定したら、次は日々の業務を軽くし、利益を残せる体質をつくります。
+                        請求書の自動発行、宿泊料金の自動最適化、予約管理の効率化、
+                        清掃オペレーションの省人化など、宿の現場で本当に使える仕組みを導入します。
                       </p>
                       <div className="flex flex-wrap gap-2">
-                        {['予約・在庫管理の効率化', '清掃・運営の省人化', '価格設定の最適化', 'OTA依存度の改善', '販促・集客の仕組みづくり', '管理業務の整理'].map((t) => (
+                        {['請求書の自動発行', '料金の自動最適化', '予約・在庫管理の効率化', '清掃・運営の省人化', 'OTA依存度の改善', '販促・集客の仕組みづくり'].map((t) => (
                           <span key={t} className="text-xs text-slate-500 bg-white border border-slate-200 px-3 py-1 rounded-full">{t}</span>
                         ))}
                       </div>
@@ -235,11 +268,9 @@ export default function Home() {
               </div>
 
               {/* Arrow */}
-              <div className="flex justify-center my-2 text-slate-300">
-                <IconArrowDown />
-              </div>
+              <div className="flex justify-center my-2 text-slate-300"><IconArrowDown /></div>
 
-              {/* Stage 3 */}
+              {/* Stage 3 - 承継 */}
               <div className="mt-2">
                 <div className="bg-slate-50 border border-slate-200 rounded-2xl p-8 md:p-10">
                   <div className="flex items-start gap-5">
@@ -267,7 +298,182 @@ export default function Home() {
           </section>
 
           {/* ════════════════════════════════════════════
-              MARKET CONTEXT - 業界の今
+              AI時代の背景 + 自動化セクション
+          ════════════════════════════════════════════ */}
+          <section id="automation" className="py-20 md:py-28 px-4 bg-slate-50">
+            <div className="max-w-5xl mx-auto">
+              <p className="text-sm text-slate-400 font-medium mb-4">業務の自動化について</p>
+              <h2 className="text-2xl md:text-3xl font-bold text-slate-900 mb-4 max-w-2xl">
+                手作業に追われる時代は、<br className="md:hidden" />もう終わりにできます。
+              </h2>
+              <p className="text-slate-500 text-sm mb-6 max-w-2xl leading-relaxed">
+                宿泊業の現場では、請求書の作成、料金の調整、レポートの集計、予約の確認など、
+                毎日のように手作業が積み重なっています。
+                人手が足りないのに、人がやらなくてもいい仕事に時間を取られている。
+                それが多くの施設の実態です。
+              </p>
+              <p className="text-slate-500 text-sm mb-16 max-w-2xl leading-relaxed">
+                いま、AIや自動化の技術は実務で使えるレベルに急速に進化しています。
+                大手だけの話ではありません。
+                10室の旅館でも、50室のホテルでも、
+                日々の作業を仕組みに変えることで、経営の余白をつくれる時代になりました。
+                私たちは、その仕組みを宿泊業の現場に合わせて導入します。
+              </p>
+
+              {/* 自動化できること - 具体機能 */}
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
+                {/* 請求書の自動発行 */}
+                <div className="bg-white rounded-xl border border-slate-200 p-6">
+                  <div className="flex items-center gap-3 mb-4">
+                    <div className="w-10 h-10 bg-slate-100 rounded-lg flex items-center justify-center text-slate-600">
+                      <IconDocument />
+                    </div>
+                    <h3 className="font-bold text-slate-900">請求書の自動発行</h3>
+                  </div>
+                  <p className="text-sm text-slate-600 leading-relaxed mb-4">
+                    宿泊実績をもとに、請求書を自動で作成・発行します。
+                    エージェント向け、法人向け、OTA精算など、
+                    パターンごとに手作業で作っていた帳票を仕組み化。
+                    月末の経理作業が大幅に軽くなります。
+                  </p>
+                  <div className="flex flex-wrap gap-2">
+                    {['エージェント請求の自動化', '法人精算書の一括発行', '入金消込の自動化'].map((t) => (
+                      <span key={t} className="text-xs text-slate-400 bg-slate-50 px-2.5 py-1 rounded">{t}</span>
+                    ))}
+                  </div>
+                </div>
+
+                {/* ダイナミックプライシング */}
+                <div className="bg-white rounded-xl border border-slate-200 p-6">
+                  <div className="flex items-center gap-3 mb-4">
+                    <div className="w-10 h-10 bg-slate-100 rounded-lg flex items-center justify-center text-slate-600">
+                      <IconCurrency />
+                    </div>
+                    <h3 className="font-bold text-slate-900">宿泊料金の自動最適化</h3>
+                  </div>
+                  <p className="text-sm text-slate-600 leading-relaxed mb-4">
+                    予約状況、曜日、周辺イベント、過去の稼働データをもとに、
+                    宿泊料金を自動で調整します。
+                    勘と経験だけに頼らず、データに基づいた価格設定で
+                    取りこぼしを減らし、RevPARを改善します。
+                  </p>
+                  <div className="flex flex-wrap gap-2">
+                    {['需要連動の自動料金調整', '曜日・季節の最適化', 'OTA別の価格戦略'].map((t) => (
+                      <span key={t} className="text-xs text-slate-400 bg-slate-50 px-2.5 py-1 rounded">{t}</span>
+                    ))}
+                  </div>
+                </div>
+
+                {/* レポート・数値管理 */}
+                <div className="bg-white rounded-xl border border-slate-200 p-6">
+                  <div className="flex items-center gap-3 mb-4">
+                    <div className="w-10 h-10 bg-slate-100 rounded-lg flex items-center justify-center text-slate-600">
+                      <IconChart />
+                    </div>
+                    <h3 className="font-bold text-slate-900">経営レポートの自動生成</h3>
+                  </div>
+                  <p className="text-sm text-slate-600 leading-relaxed mb-4">
+                    稼働率、ADR、RevPAR、客室別売上などの経営指標を
+                    自動で集計・レポート化します。
+                    Excelを開いて手で集計する時間をゼロに。
+                    数字がリアルタイムで見えるようになれば、判断のスピードが変わります。
+                  </p>
+                  <div className="flex flex-wrap gap-2">
+                    {['日次・月次レポートの自動化', 'OTA別の売上集計', 'KPIダッシュボード'].map((t) => (
+                      <span key={t} className="text-xs text-slate-400 bg-slate-50 px-2.5 py-1 rounded">{t}</span>
+                    ))}
+                  </div>
+                </div>
+
+                {/* 予約・オペレーション */}
+                <div className="bg-white rounded-xl border border-slate-200 p-6">
+                  <div className="flex items-center gap-3 mb-4">
+                    <div className="w-10 h-10 bg-slate-100 rounded-lg flex items-center justify-center text-slate-600">
+                      <IconClipboard />
+                    </div>
+                    <h3 className="font-bold text-slate-900">予約管理・オペレーションの効率化</h3>
+                  </div>
+                  <p className="text-sm text-slate-600 leading-relaxed mb-4">
+                    複数OTAの予約情報を一元管理し、ダブルブッキングを防止。
+                    清掃スケジュールの自動割当、チェックイン業務の省力化など、
+                    現場の「回す」負担を軽くする仕組みを入れます。
+                  </p>
+                  <div className="flex flex-wrap gap-2">
+                    {['予約の一元管理', '清掃スケジュール自動化', 'チェックイン省力化'].map((t) => (
+                      <span key={t} className="text-xs text-slate-400 bg-slate-50 px-2.5 py-1 rounded">{t}</span>
+                    ))}
+                  </div>
+                </div>
+              </div>
+
+              {/* 時代背景 - コンパクトに */}
+              <div className="bg-white rounded-xl border border-slate-200 p-6 md:p-8">
+                <div className="flex items-start gap-4">
+                  <div className="w-10 h-10 bg-slate-900 rounded-lg flex items-center justify-center text-white shrink-0">
+                    <IconSparkles />
+                  </div>
+                  <div>
+                    <h3 className="font-bold text-slate-900 mb-3">なぜ「今」なのか</h3>
+                    <p className="text-sm text-slate-600 leading-relaxed mb-4">
+                      AIの進化により、これまで専門のエンジニアやコンサルタントがいないと実現できなかった
+                      業務自動化が、中小規模の施設でも導入できるようになりました。
+                      請求書の自動発行も、需要連動の料金調整も、経営レポートの自動生成も、
+                      数年前なら大手チェーンだけの話でした。
+                    </p>
+                    <p className="text-sm text-slate-600 leading-relaxed">
+                      今は違います。
+                      ただし、技術があるだけでは現場には入りません。
+                      宿泊業の業務フローを理解し、施設の規模や体制に合わせて落とし込む。
+                      私たちが間に入ることで、
+                      <span className="font-medium text-slate-800">技術を「使える仕組み」に変えます。</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          {/* ════════════════════════════════════════════
+              Before / After
+          ════════════════════════════════════════════ */}
+          <section className="py-20 md:py-28 px-4 bg-white">
+            <div className="max-w-5xl mx-auto">
+              <p className="text-sm text-slate-400 font-medium mb-4">導入前後のイメージ</p>
+              <h2 className="text-2xl md:text-3xl font-bold text-slate-900 mb-12">
+                仕組みが変われば、<br className="md:hidden" />経営の余白が生まれる。
+              </h2>
+              <div className="overflow-x-auto">
+                <table className="w-full text-sm">
+                  <thead>
+                    <tr className="border-b-2 border-slate-200">
+                      <th className="text-left py-4 px-4 text-slate-500 font-medium w-[200px]">業務</th>
+                      <th className="text-left py-4 px-4 text-slate-400 font-medium">これまで</th>
+                      <th className="text-left py-4 px-4 text-slate-900 font-medium">導入後</th>
+                    </tr>
+                  </thead>
+                  <tbody className="divide-y divide-slate-100">
+                    {[
+                      { task: '請求書作成', before: '月末にExcelで1件ずつ手作業', after: '宿泊実績から自動発行。月末作業ほぼゼロに' },
+                      { task: '料金設定', before: '経験と勘で設定。繁忙期の取りこぼし多い', after: '需要データをもとに自動調整。RevPAR改善' },
+                      { task: '売上レポート', before: '各OTAの管理画面を開いて手動集計', after: '自動集計。リアルタイムで経営数値が見える' },
+                      { task: '予約管理', before: '複数OTAを目視で確認。ミスが起きやすい', after: '一元管理。ダブルブッキング防止' },
+                      { task: '清掃手配', before: '紙やLINEで個別連絡', after: '予約連動で自動スケジュール' },
+                      { task: '資金繰り', before: '銀行に相談して数週間待ち', after: 'OTA売上を最短翌日に資金化' },
+                    ].map(({ task, before, after }) => (
+                      <tr key={task}>
+                        <td className="py-4 px-4 font-medium text-slate-800">{task}</td>
+                        <td className="py-4 px-4 text-slate-400">{before}</td>
+                        <td className="py-4 px-4 text-slate-700 font-medium">{after}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </section>
+
+          {/* ════════════════════════════════════════════
+              MARKET CONTEXT
           ════════════════════════════════════════════ */}
           <section className="py-20 md:py-28 px-4 bg-slate-50">
             <div className="max-w-5xl mx-auto">
@@ -316,7 +522,7 @@ export default function Home() {
           </section>
 
           {/* ════════════════════════════════════════════
-              APPROACH - 私たちの考え
+              APPROACH
           ════════════════════════════════════════════ */}
           <section id="approach" className="py-20 md:py-28 px-4 bg-white">
             <div className="max-w-5xl mx-auto">
@@ -335,11 +541,11 @@ export default function Home() {
                   },
                   {
                     title: '金融と実務の両面で支える',
-                    desc: '資金を用意するだけでは経営課題は解けません。業務の仕組みを変える、収益構造を見直す、そこまで一緒にやる。金融と実務の両輪が私たちの強みです。',
+                    desc: '資金を用意するだけでは経営課題は解けません。業務の仕組みを変え、手作業を自動化し、収益構造を見直す。そこまで一緒にやる。金融と実務の両輪が私たちの強みです。',
                   },
                   {
                     title: '段階的に、伴走する',
-                    desc: 'まず足元の資金を安定させ、次に業務と収益を改善し、その先の承継や再編まで。宿の状態に応じて支援が深くなる設計です。一回きりではなく、長く付き合います。',
+                    desc: 'まず足元の資金を安定させ、次に業務の自動化と収益改善、その先の承継や再編まで。宿の状態に応じて支援が深くなる設計です。一回きりではなく、長く付き合います。',
                   },
                 ].map(({ title, desc }) => (
                   <div key={title} className="border-t-2 border-slate-900 pt-6">
@@ -352,7 +558,7 @@ export default function Home() {
           </section>
 
           {/* ════════════════════════════════════════════
-              FUNDING DETAIL - 資金繰り支援の詳細
+              FUNDING DETAIL
           ════════════════════════════════════════════ */}
           <section className="py-20 md:py-28 px-4 bg-slate-50">
             <div className="max-w-5xl mx-auto">
@@ -365,13 +571,12 @@ export default function Home() {
                 銀行融資のように数週間〜1ヶ月待つ必要はありません。
               </p>
 
-              {/* How it works - compact */}
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
                 {[
                   { step: '01', title: '売上情報を入力', desc: 'OTA売上明細や請求書の金額・支払期日をフォームに入力。' },
                   { step: '02', title: '書類をアップロード', desc: '請求書・本人確認書類をスマホで撮影して送るだけ。' },
                   { step: '03', title: '審査後、即入金', desc: '審査完了後、条件に合意いただければ指定口座へお振込み。' },
-                ].map(({ step, title, desc }, i) => (
+                ].map(({ step, title, desc }) => (
                   <div key={step} className="flex items-start gap-4">
                     <span className="text-3xl font-bold text-slate-200 shrink-0">{step}</span>
                     <div>
@@ -382,7 +587,6 @@ export default function Home() {
                 ))}
               </div>
 
-              {/* Key numbers */}
               <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">
                 {[
                   { value: '最短10分', label: '入金スピード' },
@@ -397,7 +601,6 @@ export default function Home() {
                 ))}
               </div>
 
-              {/* Use cases list */}
               <div className="bg-white rounded-xl border border-slate-200 p-6 md:p-8">
                 <h3 className="font-bold text-slate-900 text-base mb-4">こんな場面で使えます</h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
@@ -420,7 +623,7 @@ export default function Home() {
           </section>
 
           {/* ════════════════════════════════════════════
-              VOICE - ご利用施設の声
+              VOICE
           ════════════════════════════════════════════ */}
           <section className="py-20 md:py-28 px-4 bg-white">
             <div className="max-w-5xl mx-auto">
@@ -432,21 +635,21 @@ export default function Home() {
                 {[
                   {
                     type: '温泉旅館',
-                    area: '静岡県',
-                    text: 'ボイラーが急に壊れて、修繕費180万円が必要になりました。銀行に相談したら2週間はかかると。資金繰り支援のおかげで営業を止めずに済みました。',
-                    result: '翌日に資金化、営業継続',
+                    area: '静岡県・28室',
+                    text: 'ボイラーが急に壊れて、修繕費180万円が必要になりました。銀行では2週間かかると言われ、資金繰り支援で翌日に調達。営業を止めずに済みました。今は請求書の自動発行も導入して、月末の事務作業がかなり減っています。',
+                    result: '緊急資金調達 → 請求書自動化を導入',
                   },
                   {
                     type: 'ビジネスホテル',
-                    area: '大阪府',
-                    text: 'OTAの入金が翌月末なのに、リネン代も人件費も毎月出ていく。OTA売上を前払いしてもらうことで、月末のひやひやがなくなりました。',
-                    result: 'キャッシュフロー安定化',
+                    area: '大阪府・52室',
+                    text: 'OTAの入金待ちで毎月キャッシュフローが苦しかった。前払いで安定させた後、料金の自動最適化を入れてもらったら、同じ稼働率でもADRが上がりました。勘で値付けしていたのがもったいなかったです。',
+                    result: '資金安定化 → 自動料金調整でADR改善',
                   },
                   {
                     type: 'リゾートホテル',
-                    area: '沖縄県',
-                    text: 'インバウンド需要に対応するため客室改装が急務でした。銀行融資の審査を待てなかったので、ブリッジ資金として活用。繁忙期に間に合いました。',
-                    result: '改装完了、稼働率向上',
+                    area: '沖縄県・35室',
+                    text: 'インバウンド改装のブリッジ資金として最初に利用しました。そこから業務改善も相談するようになり、今は予約管理の一元化とレポート自動化まで入っています。現場スタッフの負担が目に見えて減りました。',
+                    result: '改装資金 → 予約一元化・レポート自動化',
                   },
                 ].map(({ type, area, text, result }) => (
                   <div key={type} className="border border-slate-200 rounded-xl p-6">
@@ -457,7 +660,7 @@ export default function Home() {
                     <p className="text-sm text-slate-600 leading-relaxed mb-4">{text}</p>
                     <div className="bg-slate-50 rounded-lg px-3 py-2">
                       <p className="text-xs text-slate-500">
-                        <span className="font-medium text-slate-700">結果：</span>{result}
+                        <span className="font-medium text-slate-700">流れ：</span>{result}
                       </p>
                     </div>
                   </div>
@@ -478,11 +681,23 @@ export default function Home() {
               <div>
                 <FAQItem
                   q="どのような施設が対象ですか？"
-                  a="旅館、ホテル、民宿、ゲストハウス、民泊など、宿泊業を営む施設が対象です。法人・個人事業主を問わず、規模の大小もありません。"
+                  a="旅館、ホテル、民宿、ゲストハウス、民泊など、宿泊業を営む施設が対象です。法人・個人事業主を問わず、規模の大小もありません。10室の温泉旅館から50室以上のホテルまで幅広く対応しています。"
                 />
                 <FAQItem
                   q="まず何から相談すればいいですか？"
                   a="「今、何に困っているか」だけ教えてください。資金繰りなのか、業務のことなのか、承継のことなのか。状況を伺ったうえで、最適な支援をご提案します。"
+                />
+                <FAQItem
+                  q="業務自動化だけ依頼することもできますか？"
+                  a="はい。資金繰り支援と業務改善は独立したサービスです。「請求書の自動化だけ」「料金最適化だけ」といった個別のご依頼も承ります。まずは一番困っているところから始めることをおすすめしています。"
+                />
+                <FAQItem
+                  q="ITに詳しくなくても大丈夫ですか？"
+                  a="まったく問題ありません。システムの導入・設定・運用サポートまで一貫して対応します。宿泊業の現場に合わせて仕組みを作りますので、スタッフの方が特別な技術を覚える必要はありません。"
+                />
+                <FAQItem
+                  q="料金の自動調整は、勝手に値段が変わるということですか？"
+                  a="自動で値段を変更する設定も可能ですが、最初は「提案型」からスタートする施設が多いです。システムが最適な価格を提案し、最終判断はオーナーや支配人が行う。慣れてきたら自動化の範囲を広げていく、というステップです。"
                 />
                 <FAQItem
                   q="資金繰り支援の手数料はどのくらいですか？"
@@ -495,10 +710,6 @@ export default function Home() {
                 <FAQItem
                   q="取引先やOTAに知られますか？"
                   a="知られません。2社間取引のため、OTA・旅行エージェント・取引先への通知や連絡は一切不要です。"
-                />
-                <FAQItem
-                  q="業務改善やDXの支援だけ受けることもできますか？"
-                  a="はい。資金繰り支援と業務改善は独立したサービスです。施設の状況やニーズに応じて、必要な支援だけをお選びいただけます。"
                 />
                 <FAQItem
                   q="地方でも対応してもらえますか？"
